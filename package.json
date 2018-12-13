@@ -1,0 +1,31 @@
+{
+  "name": "image-bot-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "5en1x",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cors": "2.8.3",
+    "express": "^4.15.4",
+    "express-mysql-session": "^1.2.3",
+    "express-session": "^1.15.6",
+    "mysql": "^2.14.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.83.0",
+    "superagent": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}

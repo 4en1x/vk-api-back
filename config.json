@@ -1,0 +1,30 @@
+{
+  "db": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "12345678",
+    "database": "images-bot-db",
+    "timezone": "utc"
+  },
+  "web": {
+    "port": 8080,
+    "backendOrigin": "http://localhost:8080",
+    "frontendOrigin": "http://localhost:3000"
+  },
+  "vk": {
+    "CLIENT_ID": "6774821",
+    "PREFIX": "https://api.vk.com/method/",
+    "T_GET_PREFIX": "http://oauth.vk.com",
+    "V": "5.92",
+    "UI_REDIRECT": "http://localhost:3000/vkAuthComplete",
+    "CLIENT_SECRET": "54OI6LX7bhmR9rWZybp0",
+    "MAIN_PREFIX": "https://vk.com/",
+    "BLANK": "https://oauth.vk.com/blank.html"
+  },
+  "pageSettings": {
+    "itemsPerPage": 10,
+    "postsPerPage": 10,
+    "friendsPerPage": 50
+  }
+}
